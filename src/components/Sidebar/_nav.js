@@ -1,13 +1,53 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
+      name: 'T1D Dashboard',
       url: '/dashboard',
-      icon: 'icon-speedometer',
-      badge: {
-        variant: 'info',
-        text: 'NEW'
+      icon: 'icon-speedometer'
+    },
+    {
+      title: true,
+      name: 'Reports',
+      wrapper: {
+        element: '',
+        attributes: {}
       }
-    }
+    },
+    {
+      name: 'Day to Day',
+      url: '/toreplace'
+     },
+    {
+      name: 'Daily Stats',
+      url: '/toreplace'
+    },
+    {
+      name: 'Distribution',
+      url: '/toreplace'
+    },
+    {
+      name: 'Hourly Stats',
+      url: '/toreplace'
+    },
+    {
+      name: 'Percentile Chart',
+      url: '/toreplace'
+    },
+    {
+      name: 'Weekly Success',
+      url: '/toreplace'
+    },
+    {
+      name: 'Calibrations',
+      url: '/toreplace'
+    },
+    {
+      name: 'Treatments',
+      url: '/toreplace'
+    },
+    {
+      name: 'Profiles',
+      url: '/toreplace'
+    },
   ]
 };

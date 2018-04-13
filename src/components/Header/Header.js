@@ -39,7 +39,7 @@ class Header extends Component {
           <span className="navbar-toggler-icon"></span>
         </NavbarToggler>
         <NavbarToggler className="d-md-down-none" onClick={this.asideToggle}>
-          <span className="navbar-toggler-icon"></span>
+          <span className="icon-settings"></span>
         </NavbarToggler>
       </header>
     );
