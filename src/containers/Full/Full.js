@@ -7,6 +7,7 @@ import Aside from '../../components/Aside/';
 import Footer from '../../components/Footer/';
 
 import Dashboard from '../../views/Dashboard/';
+import Distribution from '../../views/Distribution/';
 
 class Full extends Component {
   render() {
@@ -19,6 +20,7 @@ class Full extends Component {
             <Container fluid style={{ paddingTop: '30px'}}>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/distribution" name="Distribution" component={Distribution}/>
                 <Redirect from="/" to="/dashboard"/>
               </Switch>
             </Container>

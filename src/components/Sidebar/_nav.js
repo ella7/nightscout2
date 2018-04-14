@@ -23,7 +23,7 @@ export default {
     },
     {
       name: 'Distribution',
-      url: '/toreplace'
+      url: '/distribution'
     },
     {
       name: 'Hourly Stats',
