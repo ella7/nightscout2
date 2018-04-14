@@ -29,6 +29,7 @@
     "webpack-dev-server": "2.11.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "4.0.0",
     "font-awesome": "4.7.0",
     "history": "4.7.2",
