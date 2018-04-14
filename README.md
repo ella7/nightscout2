@@ -53,8 +53,8 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 Placeholder
 
-    $ git clone https://github.com/ORG/PROJECT.git
-    $ cd PROJECT
+    $ git clone https://github.com/ella7/nightscout2.git
+    $ cd nightscout2
     $ npm install
 
 ### Configure app
