@@ -16,7 +16,7 @@ class Full extends Component {
         <div className="app-body">
           <Sidebar {...this.props}/>
           <main className="main">
-            <Container fluid>
+            <Container fluid style={{ paddingTop: '30px'}}>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
                 <Redirect from="/" to="/dashboard"/>
